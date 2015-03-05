@@ -1,0 +1,51 @@
+{
+	"system": {
+		"id" : "01:02:03:04:05:06",
+		"apiversion": 1
+	},
+	"rooms": [
+		{
+	    	"id" : "global",
+	    	"name" : "Global"
+	    },
+	    {
+	    	"id" : "exterieur",
+	    	"name" : "Extérieur"
+	    },
+	    {
+	     	"id" : "room1",
+	    	"name" : "Pièce 1"
+	    },
+	    {
+	     	"id" : "room2",
+	    	"name" : "Pièce 2"
+	    }
+    ],
+	"itowProbes": {
+		"1": {
+			"name" : "Temp. extérieure",		/* optional : override probe name from XML */
+			"room": "exterieur"
+			},
+		"2": {
+			"room": "room1"
+			},
+		"3": {
+			"room": "room2"
+			},
+		"4": {
+			"room": "room2"
+			}
+    },
+    "itowMeters": {
+		"1": {
+			"name" : "Conso. électrique générale",
+			"room" : "global"
+			},
+		"2": {
+			"name" : "Conso. électrique PAC",
+			"room" : "global"
+			}		
+    },
+    "iTowXmlUrl" : "http://192.168.0.1:8166/X",
+    "refreshInterval" : 30				/* unit : seconds */
+}

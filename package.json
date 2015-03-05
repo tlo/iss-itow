@@ -1,0 +1,34 @@
+{
+  "name": "iss-itow",
+  "version": "0.1",
+  "description": "Convert iTow XML to Imperihome ISS API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlo/iss-itow"
+  },
+  "keywords": [
+    "ISS",
+    "Imperihome",
+    "iTow",
+    "API",
+    "home",
+    "automation",
+    "domotique"
+  ],
+  "author": "Thierry Longis",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tlo/iss-itow/issues"
+  },
+  "dependencies": {
+    "express": "~4.12.1",
+    "config": "~1.12.0",
+    "request": "^2.53.0",
+    "xml2js": "^0.4.5",
+    "moment": "^2.9.0"
+  }
+}
